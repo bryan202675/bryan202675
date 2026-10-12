@@ -1,6 +1,12 @@
 name: Generate five-hour website
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/generate-site.yml"
+      - "scripts/generate_scheduled_site.py"
+      - "tests/test_scheduled_site.py"
   schedule:
     - cron: "13 * * * *"
   workflow_dispatch:
