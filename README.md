@@ -19,7 +19,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/matchday-still.jpg">
-    <img src="assets/profile/matchday-loop.gif" width="720" alt="Escena de un partido de fútbol en un estadio">
+    <img src="assets/profile/matchday-forward-loop.gif" width="720" alt="Escena de un partido de fútbol en un estadio">
   </picture>
 </p>
 
