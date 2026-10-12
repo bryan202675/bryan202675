@@ -33,10 +33,17 @@ También desarrollo una mentalidad de seguridad mediante experiencia práctica c
 </p>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,vite,nodejs,python,bash&amp;theme=dark" alt="React, TypeScript, JavaScript, HTML, CSS, Vite, Node.js, Python y Bash">
+  <strong>Frontend y móvil</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,vite,expo&amp;theme=dark" alt="React, Next.js, TypeScript, JavaScript, HTML, CSS, Vite y Expo">
   <br><br>
-  <img src="https://skillicons.dev/icons?i=expo,supabase,postgres,git,github,vercel,linux,vscode&amp;theme=dark" alt="Expo, Supabase, PostgreSQL, Git, GitHub, Vercel, Linux y Visual Studio Code">
+  <strong>Lenguajes y automatización</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=python,bash,cs,c,cpp,java,php,sass&amp;theme=dark" alt="Python, Bash, C#, C, C++, Java, PHP y Sass">
+  <br><br>
+  <strong>Servicios y herramientas</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=nodejs,dotnet,firebase,supabase,postgres,git,github,vercel,linux,vscode&amp;theme=dark" alt="Node.js, .NET, Firebase, Supabase, PostgreSQL, Git, GitHub, Vercel, Linux y Visual Studio Code">
 </div>
+
+<p align="center"><sub>C · C++ · Java · PHP · Sass: tecnologías en exploración. HTML y CSS: estructura y estilo web. SQL: consultas y modelado de datos.</sub></p>
 
 ### Lo que aporto
 
@@ -67,6 +74,10 @@ Los repositorios son el resultado visible; detrás de cada uno hay decisiones, p
 
 <p align="center">
   <img src="assets/ai-toolchain-v2.svg" width="100%" alt="Flujo de trabajo con Claude, Codex, Antigravity, Gemini y GitHub Copilot">
+</p>
+
+<p align="center">
+  <img src="assets/ai-primary-marks.svg" width="100%" alt="Logos blancos de Claude, OpenAI Codex y Google Antigravity IDE">
 </p>
 
 No uso la IA como una caja negra ni como sustituto del criterio. La incorporo como un **sistema de trabajo**: doy contexto, delego tareas concretas, reviso cambios, ejecuto pruebas y decido qué llega a producción.

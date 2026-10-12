@@ -229,12 +229,44 @@ def ai_toolchain() -> str:
 </svg>'''
 
 
+def ai_primary_marks() -> str:
+    marks = [
+        ("CLAUDE", "ANTHROPIC", "claude"),
+        ("CODEX", "OPENAI", "openai"),
+        ("ANTIGRAVITY IDE", "GOOGLE", "antigravity"),
+    ]
+    cards: list[str] = []
+    for index, (name, maker, symbol) in enumerate(marks):
+        x = 12 + index * 396
+        cards.append(
+            f'<g transform="translate({x} 12)">'
+            '<rect width="384" height="104" rx="18" fill="#13131A" fill-opacity=".78" stroke="#E8FAFF" stroke-opacity=".16"/>'
+            '<rect x="18" y="18" width="68" height="68" rx="15" fill="#E8FAFF" fill-opacity=".05" stroke="#DDF8FF" stroke-opacity=".3"/>'
+            f'<use href="#mark-{symbol}" x="29" y="29" width="46" height="46" color="#F4FDFF" filter="url(#glow)"/>'
+            f'<text x="106" y="50" class="white" font-size="19" font-weight="800">{name}</text>'
+            f'<text x="106" y="73" class="muted" font-size="11" letter-spacing="1.5">{maker}</text>'
+            '</g>'
+        )
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="128" viewBox="0 0 1200 128" role="img" aria-labelledby="title desc">
+  <title id="title">Claude, Codex y Antigravity IDE</title><desc id="desc">Logos blancos de las tres herramientas de IA principales sobre paneles oscuros.</desc>
+  <defs>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <symbol id="mark-claude" viewBox="0 0 24 24"><path fill="currentColor" d="{CLAUDE_PATH}"/></symbol>
+    <symbol id="mark-openai" viewBox="0 0 41 41"><path fill="currentColor" d="{OPENAI_PATH}"/></symbol>
+    <symbol id="mark-antigravity" viewBox="0 0 180 180"><path fill="currentColor" d="{ANTIGRAVITY_PATH}"/></symbol>
+    <style>text{{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}}.white{{fill:#FFF}}.muted{{fill:#AEB9C5}}</style>
+  </defs>
+  {''.join(cards)}
+</svg>'''
+
+
 def main() -> None:
     write_asset("banner-kali-v3.svg", banner())
     write_asset("about-terminal-v2.svg", about())
     write_asset("react-focus-v2.svg", react_focus())
     write_asset("ai-toolchain-v2.svg", ai_toolchain())
-    print("Generated centered Kali banner and versioned ice-neon profile assets")
+    write_asset("ai-primary-marks.svg", ai_primary_marks())
+    print("Generated ice-neon profile assets and primary AI marks")
 
 
 if __name__ == "__main__":
