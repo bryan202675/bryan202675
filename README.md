@@ -131,9 +131,15 @@ La formación en Claude aparece separada del resto de herramientas de IA para no
 
 ## <code>$ github --activity</code>
 
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/profile/activity-fallback-mobile.svg"><img src="assets/profile/activity-fallback.svg" width="100%" alt="Ilustración estática de actividad; no representa contribuciones reales"></picture></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bryan202675/bryan202675/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bryan202675/bryan202675/output/github-contribution-grid-snake.svg">
+    <img src="assets/profile/activity-fallback.svg" width="100%" alt="Serpiente animada sobre las contribuciones públicas de GitHub">
+  </picture>
+</p>
 
-La actividad real está en mi [perfil de GitHub](https://github.com/bryan202675?tab=overview). El [workflow de contribuciones](.github/workflows/contribution-snake.yml) generará una serpiente con versiones clara y oscura en la rama `output` cuando se ejecute. El panel actual es ilustrativo y no representa estadísticas reales.
+La serpiente se genera desde mis contribuciones públicas mediante este [workflow](.github/workflows/contribution-snake.yml). La actividad completa está en mi [perfil de GitHub](https://github.com/bryan202675?tab=overview).
 
 ---
 
