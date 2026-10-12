@@ -137,9 +137,3 @@ Mi experiencia con ciberseguridad se apoya en la práctica con **Kali Linux** y 
     <img src="https://img.shields.io/badge/GitHub-bryan202675-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub de Bryan">
   </a>
 </div>
-
-<br>
-
-<div align="center">
-  <sub>Construyendo con curiosidad, criterio y constancia desde El Salvador.</sub>
-</div>
