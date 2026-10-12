@@ -24,7 +24,7 @@
   <text x="600" y="73" text-anchor="middle" class="muted" font-size="14">bryan@kali — identity.sh</text><text x="1126" y="73" text-anchor="end" fill="#FFF" fill-opacity=".42" font-size="11">ENCRYPTED / ACTIVE</text>
   <g transform="translate(78 132)">
     <text class="cyan" font-size="15" font-weight="700">┌──(bryan㉿kali)-[~/github]</text><text y="32" class="white" font-size="16">└─$ ./profile --build <tspan class="blink" fill="#DDF8FF">▌</tspan></text>
-    <text y="92" class="white" font-size="42" font-weight="800" letter-spacing="2">BRYAN</text><rect y="109" width="104" height="4" rx="2" fill="url(#accent)"/>
+    <text y="92" class="white" font-size="42" font-weight="800" letter-spacing="2">bryan</text><rect y="109" width="104" height="4" rx="2" fill="url(#accent)"/>
     <text y="145" class="muted" font-size="16">React-first product developer</text><text y="174" class="muted" font-size="16">with a security mindset.</text>
     <path d="M0 207H510" stroke="#FFF" stroke-opacity=".11"/>
     <text y="242" class="muted" font-size="13">CORE</text><text x="90" y="242" class="white" font-size="13">React · TypeScript · Expo</text>
