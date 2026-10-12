@@ -85,15 +85,16 @@ def particles() -> str:
     rng = random.Random(SEED)
     dots: list[str] = []
     for index, (px, py) in enumerate(kali_mask_points()):
-        target_x = 770 + px * 2
-        target_y = 85 + py * 2
+        # Center the sampled silhouette inside the 500 × 400 visual panel.
+        target_x = 742 + px * 2
+        target_y = 130 + py * 2
         angle = rng.random() * math.tau
         distance = rng.uniform(180, 410)
-        start_x = 921 + math.cos(angle) * distance
-        start_y = 274 + math.sin(angle) * distance * .68
+        start_x = 906 + math.cos(angle) * distance
+        start_y = 286 + math.sin(angle) * distance * .68
         orbit_angle = angle + rng.uniform(.45, 1.25)
-        orbit_x = 921 + math.cos(orbit_angle) * rng.uniform(150, 250)
-        orbit_y = 274 + math.sin(orbit_angle) * rng.uniform(105, 185)
+        orbit_x = 906 + math.cos(orbit_angle) * rng.uniform(150, 250)
+        orbit_y = 286 + math.sin(orbit_angle) * rng.uniform(105, 185)
         magnet_x = target_x + math.cos(angle) * rng.uniform(24, 68)
         magnet_y = target_y + math.sin(angle) * rng.uniform(18, 52)
         release_angle = angle + rng.uniform(-1.1, 1.1)
@@ -133,10 +134,10 @@ def banner() -> str:
     <clipPath id="visual"><rect x="656" y="86" width="500" height="400" rx="16"/></clipPath>
     <style>
       text{{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}} .white{{fill:#FFF}} .muted{{fill:#AEB9C5}} .cyan{{fill:#DDF8FF}}
-      .blink{{animation:blink 1s steps(1,end) infinite}} .scan{{animation:scan 4s linear infinite}} .dash{{animation:dash 11s linear infinite}} .pulse{{animation:pulse 2.8s ease-in-out infinite}}
-      @keyframes blink{{0%,48%{{opacity:1}}49%,100%{{opacity:.12}}}} @keyframes scan{{0%{{transform:translateX(-24px);opacity:0}}12%,78%{{opacity:.58}}100%{{transform:translateX(448px);opacity:0}}}}
+      .blink{{animation:blink 1s steps(1,end) infinite}} .dash{{animation:dash 11s linear infinite}} .pulse{{animation:pulse 2.8s ease-in-out infinite}}
+      @keyframes blink{{0%,48%{{opacity:1}}49%,100%{{opacity:.12}}}}
       @keyframes dash{{to{{stroke-dashoffset:-160}}}} @keyframes pulse{{0%,100%{{opacity:.35}}50%{{opacity:1}}}}
-      @media(prefers-reduced-motion:reduce){{.scan,.dash,.blink,.pulse{{animation:none!important}}}}
+      @media(prefers-reduced-motion:reduce){{.dash,.blink,.pulse{{animation:none!important}}}}
     </style>
     <path id="kali" d="{KALI_PATH}"/>
   </defs>
@@ -158,14 +159,12 @@ def banner() -> str:
   </g>
   <g clip-path="url(#visual)">
     <rect x="656" y="86" width="500" height="400" fill="#090B11" fill-opacity=".62"/><path d="M656 426L1156 146M656 482L1156 202M656 370L1156 90" stroke="#DDF8FF" stroke-opacity=".035"/>
-    <circle cx="921" cy="274" r="168" fill="none" stroke="#FFF" stroke-opacity=".065"/><circle cx="921" cy="274" r="139" fill="none" stroke="#DDF8FF" stroke-opacity=".2" stroke-dasharray="4 14" class="dash"/>
-    <g opacity=".26" transform="translate(782 89) scale(12.8)"><use href="#kali" fill="#E8FAFF" filter="url(#glow)"/><animate attributeName="opacity" values="0;0;.08;.26;.26;.06;0" keyTimes="0;.18;.25;.31;.68;.86;1" dur="12s" repeatCount="indefinite"/></g>
+    <circle cx="906" cy="286" r="168" fill="none" stroke="#FFF" stroke-opacity=".065"/><circle cx="906" cy="286" r="139" fill="none" stroke="#DDF8FF" stroke-opacity=".2" stroke-dasharray="4 14" class="dash"/>
+    <g opacity=".26" transform="translate(754 134) scale(12.8)"><use href="#kali" fill="#E8FAFF" filter="url(#glow)"/><animate attributeName="opacity" values="0;0;.08;.26;.26;.06;0" keyTimes="0;.18;.25;.31;.68;.86;1" dur="12s" repeatCount="indefinite"/></g>
     <g shape-rendering="geometricPrecision">{particle_markup}</g>
-    <rect class="scan" x="680" y="118" width="3" height="330" fill="#F4FDFF" opacity="0" filter="url(#glow)"/>
   </g>
   <rect x="656" y="86" width="500" height="400" rx="16" fill="none" stroke="#FFF" stroke-opacity=".12"/>
   <g font-size="10" letter-spacing="1"><text x="680" y="111" fill="#FFF" fill-opacity=".55">PARTICLE ENGINE / 900 NODES</text><text x="1132" y="111" text-anchor="end" class="cyan">KALI // ICE LOOP ∞</text></g>
-  <g transform="translate(680 450)"><rect width="452" height="22" rx="11" fill="#080A10" stroke="#FFF" stroke-opacity=".1"/><rect x="4" y="4" width="110" height="14" rx="7" fill="url(#accent)" opacity=".82" filter="url(#glow)"><animate attributeName="x" values="4;334;4" dur="12s" repeatCount="indefinite"/></rect><text x="226" y="15" text-anchor="middle" class="white" font-size="9" letter-spacing="1.6">ORBIT → ASSEMBLE → HOLD → RELEASE</text></g>
 </svg>'''
 
 
@@ -231,11 +230,11 @@ def ai_toolchain() -> str:
 
 
 def main() -> None:
-    write_asset("banner-kali-v2.svg", banner())
+    write_asset("banner-kali-v3.svg", banner())
     write_asset("about-terminal-v2.svg", about())
     write_asset("react-focus-v2.svg", react_focus())
     write_asset("ai-toolchain-v2.svg", ai_toolchain())
-    print("Generated versioned ice-neon profile assets")
+    print("Generated centered Kali banner and versioned ice-neon profile assets")
 
 
 if __name__ == "__main__":

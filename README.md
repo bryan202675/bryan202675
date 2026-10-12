@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/bryan202675">
-    <img src="assets/banner-kali-v2.svg" width="100%" alt="Bryan: React, Kali Linux y ciberseguridad">
+    <img src="assets/banner-kali-v3.svg" width="100%" alt="Bryan: React, Kali Linux y ciberseguridad">
   </a>
   <br><br>
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;duration=2600&amp;pause=850&amp;color=FFFFFF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=React+%E2%80%A2+TypeScript+%E2%80%A2+Product+Engineering;Kali+Linux+%E2%80%A2+Cybersecurity+%E2%80%A2+Automation;Web+%E2%80%A2+Mobile+%E2%80%A2+AI-assisted+workflows;I+learn%2C+build+and+ship." alt="Áreas profesionales de Bryan">
