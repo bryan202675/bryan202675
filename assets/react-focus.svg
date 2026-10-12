@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">React como especialidad principal</title>
+  <desc id="desc">Panel animado que destaca React, TypeScript y desarrollo de productos web y móviles.</desc>
+  <defs>
+    <linearGradient id="bg"><stop stop-color="#05070B"/><stop offset="1" stop-color="#0D1119"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#61DAFB" stop-opacity=".2"/><stop offset="1" stop-color="#61DAFB" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.w{fill:#FFF}.m{fill:#A7ADBB}.c{fill:#61DAFB}.pulse{animation:p 2.8s ease-in-out infinite}@keyframes p{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="328" rx="22" fill="url(#bg)" stroke="#FFF" stroke-opacity=".13" stroke-width="2"/>
+  <ellipse cx="244" cy="166" rx="220" ry="190" fill="url(#halo)"/>
+  <g transform="translate(245 164)" fill="none" stroke="#61DAFB" stroke-width="5" filter="url(#glow)">
+    <ellipse rx="142" ry="55"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="142" ry="55" transform="rotate(60)"><animateTransform attributeName="transform" type="rotate" from="60 0 0" to="420 0 0" dur="18s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="142" ry="55" transform="rotate(120)"><animateTransform attributeName="transform" type="rotate" from="120 0 0" to="480 0 0" dur="18s" repeatCount="indefinite"/></ellipse>
+    <circle r="18" fill="#61DAFB" stroke="none" class="pulse"/>
+  </g>
+  <text x="455" y="78" class="c" font-size="14" font-weight="700">PRIMARY FOCUS</text>
+  <text x="455" y="121" class="w" font-size="34" font-weight="800">React turns ideas</text>
+  <text x="455" y="160" class="w" font-size="34" font-weight="800">into products.</text>
+  <text x="455" y="193" class="m" font-size="15">Interfaces claras · datos reales · web y móvil.</text>
+  <path d="M455 210H1125" stroke="#FFF" stroke-opacity=".1"/>
+  <g font-size="14">
+    <rect x="455" y="232" width="144" height="44" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".12"/>
+    <text x="527" y="259" text-anchor="middle" class="w">React</text>
+    <rect x="615" y="232" width="164" height="44" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".12"/>
+    <text x="697" y="259" text-anchor="middle" class="w">TypeScript</text>
+    <rect x="795" y="232" width="150" height="44" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".12"/>
+    <text x="870" y="259" text-anchor="middle" class="w">React Native</text>
+    <rect x="961" y="232" width="164" height="44" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".12"/>
+    <text x="1043" y="259" text-anchor="middle" class="w">Expo · Vite</text>
+  </g>
+  <circle cx="1128" cy="302" r="4" fill="#28C840"><animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="1115" y="306" text-anchor="end" class="m" font-size="11">RENDERING / HEALTHY</text>
+</svg>

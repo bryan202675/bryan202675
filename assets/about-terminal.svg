@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Acerca de Bryan</title>
+  <desc id="desc">Terminal animada con el perfil profesional de Bryan.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080A10"/><stop offset="1" stop-color="#11131C"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.w{fill:#FFF}.m{fill:#A7ADBB}.a{fill:#38BDF8}
+      .cursor{animation:blink 1s steps(1,end) infinite}.signal{animation:pulse 2.6s ease-in-out infinite}
+      @keyframes blink{50%{opacity:.08}}@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="22" fill="url(#bg)" stroke="#FFF" stroke-opacity=".13" stroke-width="2"/>
+  <path d="M1 54H1199" stroke="#FFF" stroke-opacity=".11"/>
+  <circle cx="30" cy="28" r="7" fill="#FF5F57"/><circle cx="54" cy="28" r="7" fill="#FEBC2E"/><circle cx="78" cy="28" r="7" fill="#28C840"/>
+  <text x="600" y="34" text-anchor="middle" class="m" font-size="13">profile.yml — readonly</text>
+  <text x="44" y="92" class="a" font-size="15">$ cat about.yml</text>
+  <text x="44" y="130" class="m" font-size="14">identity:</text><text x="170" y="130" class="w" font-size="14">Bryan · developer &amp; builder</text>
+  <text x="44" y="162" class="m" font-size="14">specialty:</text><text x="170" y="162" class="w" font-size="14">React ecosystems and product experiences</text>
+  <text x="44" y="194" class="m" font-size="14">security:</text><text x="170" y="194" class="w" font-size="14">Kali Linux labs · analysis · secure thinking</text>
+  <text x="44" y="226" class="m" font-size="14">approach:</text><text x="170" y="226" class="w" font-size="14">learn deeply → build carefully → ship useful software</text>
+  <text x="44" y="258" class="m" font-size="14">ai:</text><text x="170" y="258" class="w" font-size="14">Anthropic certificates · Claude-assisted workflows</text>
+  <text x="44" y="306" class="a" font-size="15">$ status --current <tspan class="cursor">▌</tspan></text>
+  <g transform="translate(915 178)">
+    <circle r="112" fill="#38BDF8" fill-opacity=".035" stroke="#FFF" stroke-opacity=".08"/>
+    <circle r="82" fill="none" stroke="#38BDF8" stroke-opacity=".22" stroke-dasharray="5 11">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="16s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M-57 30C-31-8-11-36 0-67c11 31 31 59 57 97C30 17 14 12 0 12s-30 5-57 18Z" fill="none" stroke="#FFF" stroke-opacity=".88" stroke-width="3" filter="url(#glow)"/>
+    <path d="M-64 55C-35 37-17 32 0 32s35 5 64 23" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" class="signal"/>
+    <circle cx="0" cy="0" r="5" fill="#FFF" class="signal"/>
+  </g>
+  <text x="915" y="326" text-anchor="middle" class="m" font-size="11">SIGNAL / VERIFIED MINDSET</text>
+</svg>

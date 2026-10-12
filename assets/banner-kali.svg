@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Bryan - React, Kali Linux y ciberseguridad</title>
+  <desc id="desc">Banner animado estilo terminal con ventanas de macOS, el logo de Kali Linux en movimiento y Claude como elemento secundario.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030407"/>
+      <stop offset="0.5" stop-color="#090B12"/>
+      <stop offset="1" stop-color="#05060A"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".18"/>
+      <stop offset=".48" stop-color="#8B5CF6" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#38BDF8" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="wide-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#FFF" stroke-opacity=".035"/>
+    </pattern>
+    <clipPath id="stage-clip"><rect x="650" y="72" width="500" height="394" rx="18"/></clipPath>
+    <style>
+      text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+      .muted{fill:#A7ADBB}.white{fill:#FFF}.accent{fill:#38BDF8}
+      .blink{animation:blink 1s steps(1,end) infinite}
+      .float{animation:float 4.8s ease-in-out infinite}
+      .pulse{animation:pulse 3s ease-in-out infinite}
+      .dash{animation:dash 10s linear infinite}
+      .glitch{animation:glitch 7s steps(1,end) infinite}
+      @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:.12}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      @keyframes pulse{0%,100%{opacity:.38}50%{opacity:.9}}
+      @keyframes dash{to{stroke-dashoffset:-180}}
+      @keyframes glitch{0%,92%,100%{opacity:1;transform:translate(0)}93%{opacity:.45;transform:translate(4px,-2px)}94%{opacity:1;transform:translate(-3px,1px)}95%{transform:translate(0)}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" rx="26" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="518" rx="25" fill="none" stroke="#FFF" stroke-opacity=".13" stroke-width="2"/>
+  <rect x="18" y="18" width="1164" height="484" rx="20" fill="url(#grid)"/>
+  <ellipse cx="835" cy="267" rx="350" ry="285" fill="url(#halo)"/>
+
+  <rect x="42" y="42" width="1116" height="436" rx="20" fill="#090B10" fill-opacity=".82" stroke="#FFF" stroke-opacity=".14"/>
+  <path d="M42 93H1158" stroke="#FFF" stroke-opacity=".11"/>
+  <circle cx="72" cy="67" r="7" fill="#FF5F57"/><circle cx="96" cy="67" r="7" fill="#FEBC2E"/><circle cx="120" cy="67" r="7" fill="#28C840"/>
+  <text x="600" y="72" text-anchor="middle" class="muted" font-size="14">bryan@kali — profile.sh — 120×32</text>
+  <text x="1118" y="72" text-anchor="end" fill="#FFF" fill-opacity=".38" font-size="12">SECURE SESSION</text>
+
+  <g transform="translate(78 128)">
+    <text class="accent" font-size="15" font-weight="700">┌──(bryan㉿kali)-[~/profile]</text>
+    <text y="32" class="white" font-size="16">└─$ ./whoami --verbose <tspan class="blink" fill="#38BDF8">▌</tspan></text>
+    <g class="glitch">
+      <text y="84" class="white" font-size="39" font-weight="800" letter-spacing="1">BRYAN</text>
+      <text y="116" class="muted" font-size="16">React-first developer · Security mindset</text>
+    </g>
+    <path d="M0 144H500" stroke="#FFF" stroke-opacity=".12"/>
+    <text y="180" class="muted" font-size="14">focus</text>
+    <text x="95" y="180" class="white" font-size="14">React · TypeScript · Product Engineering</text>
+    <text y="212" class="muted" font-size="14">security</text>
+    <text x="95" y="212" class="white" font-size="14">Kali Linux · Labs · Defensive thinking</text>
+    <text y="244" class="muted" font-size="14">build</text>
+    <text x="95" y="244" class="white" font-size="14">Web · Mobile · Automation · AI</text>
+    <text y="276" class="muted" font-size="14">status</text>
+    <text x="95" y="276" fill="#38BDF8" font-size="14">learning / shipping / improving</text>
+    <rect y="311" width="500" height="45" rx="10" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".1"/>
+    <circle cx="20" cy="334" r="4" fill="#28C840" class="pulse"/>
+    <text x="36" y="339" class="white" font-size="13">runtime: production-minded · curiosity: always-on</text>
+  </g>
+
+  <g clip-path="url(#stage-clip)">
+    <rect x="650" y="72" width="500" height="394" fill="#07090F" fill-opacity=".54"/>
+    <path d="M650 378L1150 118M650 432L1150 172M650 324L1150 64" stroke="#38BDF8" stroke-opacity=".045"/>
+    <circle cx="844" cy="270" r="176" fill="none" stroke="#FFF" stroke-opacity=".08"/>
+    <circle cx="844" cy="270" r="138" fill="none" stroke="#38BDF8" stroke-opacity=".22" stroke-dasharray="4 13" class="dash"/>
+    <circle cx="844" cy="270" r="101" fill="none" stroke="#8B5CF6" stroke-opacity=".25" stroke-dasharray="38 15" class="dash"/>
+
+    <g transform="translate(844 270)">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite" additive="sum"/>
+      <circle cx="0" cy="-138" r="5" fill="#38BDF8" filter="url(#soft-glow)"/>
+      <circle cx="97" cy="97" r="4" fill="#FFF"/>
+      <circle cx="-97" cy="97" r="3" fill="#8B5CF6"/>
+    </g>
+
+    <g transform="translate(844 270)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.035;1" dur="3.8s" repeatCount="indefinite"/>
+        <circle r="92" fill="#38BDF8" fill-opacity=".05" filter="url(#wide-glow)"/>
+        <g transform="scale(8.2) translate(-12 -12)" filter="url(#soft-glow)">
+          <path fill="#FFF" d="M12.778 5.943s-1.97-.13-5.327.92c-3.42 1.07-5.36 2.587-5.36 2.587s5.098-2.847 10.852-3.008zm7.351 3.095.257-.017s-1.468-1.78-4.278-2.648c1.58.642 2.954 1.493 4.021 2.665zm.42.74c.039-.068.166.217.263.337.004.024.01.039-.045.027-.005-.025-.013-.032-.013-.032s-.135-.08-.177-.137c-.041-.057-.049-.157-.028-.195zm3.448 8.479s.312-3.578-5.31-4.403a18.277 18.277 0 0 0-2.524-.187c-4.506.06-4.67-5.197-1.275-5.462 1.407-.116 3.087.643 4.73 1.408-.007.204.002.385.136.552.134.168.648.35.813.445.164.094.691.43 1.014.85.07-.131.654-.512.654-.512s-.14.003-.465-.119c-.326-.122-.713-.49-.722-.511-.01-.022-.015-.055.06-.07.059-.049-.072-.207-.13-.265-.058-.058-.445-.716-.454-.73-.009-.016-.012-.031-.04-.05-.085-.027-.46.04-.46.04s-.575-.283-.774-.893c.003.107-.099.224 0 .469-.3-.127-.558-.344-.762-.88-.12.305 0 .499 0 .499s-.707-.198-.82-.85c-.124.293 0 .469 0 .469s-1.153-.602-3.069-.61c-1.283-.118-1.55-2.374-1.43-2.754 0 0-1.85-.975-5.493-1.406-3.642-.43-6.628-.065-6.628-.065s6.45-.31 11.617 1.783c.176.785.704 2.094.989 2.723-.815.563-1.733 1.092-1.876 2.97-.143 1.878 1.472 3.53 3.474 3.58 1.9.102 3.214.116 4.806.942 1.52.84 2.766 3.4 2.89 5.703.132-1.709-.509-5.383-3.5-6.498 4.181.732 4.549 3.832 4.549 3.832zM12.68 5.663l-.15-.485s-2.484-.441-5.822-.204C3.37 5.211 0 6.38 0 6.38s6.896-1.735 12.68-.717Z">
+            <animate attributeName="opacity" values=".72;1;.82;1;.72" dur="4.6s" repeatCount="indefinite"/>
+          </path>
+        </g>
+      </g>
+    </g>
+
+    <rect x="684" y="94" width="320" height="12" fill="url(#scan)" opacity=".55">
+      <animate attributeName="y" values="92;428;92" dur="5.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.65;0" dur="5.4s" repeatCount="indefinite"/>
+    </rect>
+    <g fill="#FFF">
+      <circle cx="721" cy="141" r="2"><animate attributeName="cy" values="141;126;141" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.9;.1" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="765" cy="391" r="2"><animate attributeName="cx" values="765;783;765" dur="4.3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;1;.2" dur="4.3s" repeatCount="indefinite"/></circle>
+      <circle cx="1012" cy="183" r="2"><animate attributeName="cy" values="183;201;183" dur="3.7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.85;.1" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="1068" cy="342" r="2"><animate attributeName="cx" values="1068;1046;1068" dur="4.9s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;1;.2" dur="4.9s" repeatCount="indefinite"/></circle>
+      <circle cx="948" cy="112" r="1.8"><animate attributeName="cy" values="112;129;112" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="691" cy="305" r="1.8"><animate attributeName="cx" values="691;711;691" dur="3.9s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+  <rect x="650" y="72" width="500" height="394" rx="18" fill="none" stroke="#FFF" stroke-opacity=".12"/>
+
+  <g transform="translate(1065 102)">
+    <g class="float">
+      <circle r="36" fill="#0B0D13" stroke="#FFF" stroke-opacity=".16"/>
+      <circle r="29" fill="#D97757" fill-opacity=".08"/>
+      <g transform="translate(-18 -18) scale(1.5)">
+        <path fill="#D97757" d="m4.714 15.956 4.718-2.648.079-.23-.079-.128h-.231l-.789-.048-2.696-.073-2.337-.097-2.265-.122-.571-.121-.534-.704.055-.352.479-.322.686.061 1.518.103 2.277.158 1.651.097 2.447.255h.389l.054-.158-.133-.097-.104-.097-2.507-1.688-2.55-1.688-1.336-.971-.722-.492-.365-.461-.157-1.008.655-.722.881.06.224.061.893.686 1.906 1.475 2.489 1.834.365.303.145-.103.019-.073-.164-.273-1.354-2.447-1.445-2.489-.644-1.032-.17-.62c-.061-.254-.103-.467-.103-.728L6.287.134 6.7 0l.996.134.419.364.619 1.415 1.002 2.228 1.554 3.03.455.898.243.832.091.255h.158V9.01l.127-1.706.237-2.095.231-2.696.079-.759.376-.91.747-.492.583.28.48.685-.067.443-.286 1.852-.558 2.902-.364 1.943h.212l.243-.243.984-1.305 1.651-2.064.729-.82.85-.904.546-.431h1.032l.759 1.129-.34 1.166-1.062 1.347-.881 1.141-1.263 1.7-.789 1.36.073.109.188-.018 2.854-.607 1.542-.28 1.84-.315.831.388.091.395-.328.807-1.967.486-2.307.461-3.436.814-.043.03.049.061 1.548.146.662.036h1.621l3.018.225.789.522.473.637-.079.486-1.214.619-1.639-.389-3.825-.91-1.311-.328h-.183v.109l1.093 1.069 2.004 1.809 2.507 2.331.128.577-.322.455-.34-.048-2.204-1.658-.85-.747-1.925-1.621h-.127v.17l.443.65 2.344 3.521.121 1.081-.17.352-.607.213-.668-.122-1.372-1.925-1.153-1.779-1.141-1.943-.14.079-.674 7.255-.315.371-.729.279-.607-.461-.322-.747.322-1.475.389-1.925.315-1.53.286-1.9.17-.631-.012-.043-.14.018-1.433 1.967-2.18 2.945-1.724 1.845-.413.164-.716-.37.067-.662.4-.589 2.386-3.036 1.439-1.882.929-1.087-.006-.158h-.055l-6.338 4.117-1.13.145-.485-.455.061-.747.23-.243 1.907-1.311Z"/>
+      </g>
+      <animateTransform attributeName="transform" type="rotate" values="-3 0 0;3 0 0;-3 0 0" dur="5s" repeatCount="indefinite" additive="sum"/>
+    </g>
+  </g>
+  <text x="1065" y="153" text-anchor="middle" fill="#FFF" fill-opacity=".65" font-size="10">CLAUDE</text>
+  <text x="675" y="450" class="muted" font-size="11">KALI NODE / ACTIVE</text>
+  <text x="1126" y="450" text-anchor="end" fill="#38BDF8" font-size="11">LOOP ∞</text>
+</svg>
