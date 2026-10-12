@@ -56,6 +56,7 @@ También desarrollo una mentalidad de seguridad mediante experiencia práctica c
 - **Backend aplicado:** Supabase, PostgreSQL, autenticación, datos en tiempo real y despliegues.
 - **Automatización:** Bash, Python e integraciones para reducir trabajo repetitivo.
 - **Seguridad:** práctica con Kali Linux y una forma de pensar orientada a riesgos, diagnóstico y mejora continua.
+- **Redes:** subneteo IPv4, planificación de direcciones y configuración de redes y equipos Cisco en entornos de práctica.
 - **IA aplicada:** orquestación de Claude, Codex, Antigravity, Gemini y Copilot según el problema, siempre con revisión humana y validación técnica.
 
 ---
@@ -112,7 +113,7 @@ Mi experiencia con ciberseguridad se apoya en la práctica con **Kali Linux** y 
 
 ---
 
-## <code>$ credentials --provider anthropic</code>
+## <code>$ credentials --and-learning</code>
 
 <table>
   <tr>
@@ -124,7 +125,27 @@ Mi experiencia con ciberseguridad se apoya en la práctica con **Kali Linux** y 
       He completado certificaciones de Anthropic y aplico ese aprendizaje para trabajar con Claude de forma estructurada: mejor contexto, mejores instrucciones, revisión crítica y resultados verificables. Esta formación se presenta por separado de las demás herramientas de IA para mantener claras las credenciales.
     </td>
   </tr>
+  <tr>
+    <td width="88" align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="52" alt="OpenAI">
+    </td>
+    <td>
+      <strong>OpenAI Academy · desarrollo con IA</strong><br>
+      Ruta de construcción con la API: Scope AI Solutions, Evaluate AI Applications, Design and Build Agentic Systems, Build with Retrieval-Augmented Generation y Optimize AI Application Performance. <a href="https://academy.openai.com/pages/courses">Ver cursos oficiales</a>.
+    </td>
+  </tr>
+  <tr>
+    <td width="88" align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="52" alt="OpenAI">
+    </td>
+    <td>
+      <strong>Codex · programación asistida</strong><br>
+      Ruta de OpenAI Academy: Get Started with Codex, Extend Codex Workflows y Scale Codex Across Governed Teams and Systems. <a href="https://openai.com/academy/codex/">Ver ruta oficial</a>.
+    </td>
+  </tr>
 </table>
+
+<sub>Las rutas de OpenAI Academy pueden otorgar certificados de finalización; los comprobantes personales se enlazarán cuando estén disponibles para verificación.</sub>
 
 > La IA amplifica el proceso; la responsabilidad sobre las decisiones y la calidad sigue siendo humana.
 
