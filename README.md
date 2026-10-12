@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/bryan202675">
-    <img src="assets/banner-kali.svg" width="100%" alt="Bryan: React, Kali Linux y ciberseguridad">
+    <img src="assets/banner-kali-v2.svg" width="100%" alt="Bryan: React, Kali Linux y ciberseguridad">
   </a>
   <br><br>
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;duration=2600&amp;pause=850&amp;color=FFFFFF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=React+%E2%80%A2+TypeScript+%E2%80%A2+Product+Engineering;Kali+Linux+%E2%80%A2+Cybersecurity+%E2%80%A2+Automation;Web+%E2%80%A2+Mobile+%E2%80%A2+AI-assisted+workflows;I+learn%2C+build+and+ship." alt="Áreas profesionales de Bryan">
@@ -15,7 +15,7 @@
 ## <code>$ whoami</code>
 
 <p align="center">
-  <img src="assets/about-terminal.svg" width="100%" alt="Terminal con el perfil profesional de Bryan">
+  <img src="assets/about-terminal-v2.svg" width="100%" alt="Terminal con el perfil profesional de Bryan">
 </p>
 
 Construyo productos digitales donde la interfaz, los datos y la experiencia trabajan como un solo sistema. **React es mi centro de gravedad**: me interesa convertir ideas complejas en experiencias claras, rápidas y útiles, tanto en web como en móvil.
@@ -29,7 +29,7 @@ También desarrollo una mentalidad de seguridad mediante experiencia práctica c
 ## <code>$ ./react --focus=product</code>
 
 <p align="center">
-  <img src="assets/react-focus.svg" width="100%" alt="React como enfoque principal de Bryan">
+  <img src="assets/react-focus-v2.svg" width="100%" alt="React como enfoque principal de Bryan">
 </p>
 
 <div align="center">
@@ -66,7 +66,7 @@ Los repositorios son el resultado visible; detrás de cada uno hay decisiones, p
 ## <code>$ ai-toolchain --mode=agentic</code>
 
 <p align="center">
-  <img src="assets/ai-toolchain.svg" width="100%" alt="Flujo de trabajo con Claude, Codex, Antigravity, Gemini y GitHub Copilot">
+  <img src="assets/ai-toolchain-v2.svg" width="100%" alt="Flujo de trabajo con Claude, Codex, Antigravity, Gemini y GitHub Copilot">
 </p>
 
 No uso la IA como una caja negra ni como sustituto del criterio. La incorporo como un **sistema de trabajo**: doy contexto, delego tareas concretas, reviso cambios, ejecuto pruebas y decido qué llega a producción.

@@ -231,11 +231,11 @@ def ai_toolchain() -> str:
 
 
 def main() -> None:
-    write_asset("banner-kali.svg", banner())
-    write_asset("about-terminal.svg", about())
-    write_asset("react-focus.svg", react_focus())
-    write_asset("ai-toolchain.svg", ai_toolchain())
-    print("Generated banner-kali.svg, about-terminal.svg, react-focus.svg, ai-toolchain.svg")
+    write_asset("banner-kali-v2.svg", banner())
+    write_asset("about-terminal-v2.svg", about())
+    write_asset("react-focus-v2.svg", react_focus())
+    write_asset("ai-toolchain-v2.svg", ai_toolchain())
+    print("Generated versioned ice-neon profile assets")
 
 
 if __name__ == "__main__":
