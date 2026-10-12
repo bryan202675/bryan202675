@@ -5,7 +5,9 @@
   <br><br>
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;duration=2600&amp;pause=850&amp;color=FFFFFF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=React+%E2%80%A2+TypeScript+%E2%80%A2+Product+Engineering;Kali+Linux+%E2%80%A2+Cybersecurity+%E2%80%A2+Automation;Web+%E2%80%A2+Mobile+%E2%80%A2+AI-assisted+workflows;I+learn%2C+build+and+ship." alt="Áreas profesionales de Bryan">
   <br>
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-111827?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Perfil activo">
+  <img src="https://img.shields.io/badge/STATUS-BUILDING-111827?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Perfil activo">
+  <img src="https://img.shields.io/badge/FOCUS-REACT-111827?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="Enfoque en React">
+  <img src="https://img.shields.io/badge/SECURITY-KALI-111827?style=flat-square&amp;logo=kalilinux&amp;logoColor=white" alt="Práctica con Kali Linux">
 </div>
 
 ---
@@ -43,7 +45,7 @@ También desarrollo una mentalidad de seguridad mediante experiencia práctica c
 - **Backend aplicado:** Supabase, PostgreSQL, autenticación, datos en tiempo real y despliegues.
 - **Automatización:** Bash, Python e integraciones para reducir trabajo repetitivo.
 - **Seguridad:** práctica con Kali Linux y una forma de pensar orientada a riesgos, diagnóstico y mejora continua.
-- **IA aplicada:** uso de Claude como colaborador técnico dentro de procesos que conservan criterio humano y validación.
+- **IA aplicada:** orquestación de Claude, Codex, Antigravity, Gemini y Copilot según el problema, siempre con revisión humana y validación técnica.
 
 ---
 
@@ -58,6 +60,23 @@ También desarrollo una mentalidad de seguridad mediante experiencia práctica c
 | [**PicoClaw Discord**](https://github.com/bryan202675/picoclaw-discord) | Experimentos de automatización e integración para canales de mensajería. | Shell · automatización |
 
 Los repositorios son el resultado visible; detrás de cada uno hay decisiones, pruebas, errores corregidos y una obsesión saludable por mejorar la siguiente versión.
+
+---
+
+## <code>$ ai-toolchain --mode=agentic</code>
+
+<p align="center">
+  <img src="assets/ai-toolchain.svg" width="100%" alt="Flujo de trabajo con Claude, Codex, Antigravity, Gemini y GitHub Copilot">
+</p>
+
+No uso la IA como una caja negra ni como sustituto del criterio. La incorporo como un **sistema de trabajo**: doy contexto, delego tareas concretas, reviso cambios, ejecuto pruebas y decido qué llega a producción.
+
+- **Claude:** razonamiento, estructura, documentación y análisis de contexto amplio.
+- **OpenAI Codex:** implementación, diagnóstico, revisión de código y verificación dentro del repositorio.
+- **Google Antigravity:** exploración de flujos agentic-first y orquestación de tareas entre editor, terminal y navegador.
+- **Gemini y GitHub Copilot:** investigación multimodal, asistencia contextual y aceleración del ciclo de desarrollo.
+
+> La velocidad importa; la trazabilidad, las pruebas y la responsabilidad importan más.
 
 ---
 
@@ -87,7 +106,7 @@ Mi experiencia con ciberseguridad se apoya en la práctica con **Kali Linux** y 
     </td>
     <td>
       <strong>Formación y certificaciones de Anthropic</strong><br>
-      He completado certificaciones de Anthropic y aplico ese aprendizaje para trabajar con Claude de forma estructurada: mejor contexto, mejores instrucciones, revisión crítica y resultados verificables.
+      He completado certificaciones de Anthropic y aplico ese aprendizaje para trabajar con Claude de forma estructurada: mejor contexto, mejores instrucciones, revisión crítica y resultados verificables. Esta formación se presenta por separado de las demás herramientas de IA para mantener claras las credenciales.
     </td>
   </tr>
 </table>

@@ -1,35 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-  <title id="title">React como especialidad principal</title>
-  <desc id="desc">Panel animado que destaca React, TypeScript y desarrollo de productos web y móviles.</desc>
-  <defs>
-    <linearGradient id="bg"><stop stop-color="#05070B"/><stop offset="1" stop-color="#0D1119"/></linearGradient>
-    <radialGradient id="halo"><stop stop-color="#61DAFB" stop-opacity=".2"/><stop offset="1" stop-color="#61DAFB" stop-opacity="0"/></radialGradient>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <style>text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.w{fill:#FFF}.m{fill:#A7ADBB}.c{fill:#61DAFB}.pulse{animation:p 2.8s ease-in-out infinite}@keyframes p{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
-  </defs>
-  <rect x="1" y="1" width="1198" height="328" rx="22" fill="url(#bg)" stroke="#FFF" stroke-opacity=".13" stroke-width="2"/>
-  <ellipse cx="244" cy="166" rx="220" ry="190" fill="url(#halo)"/>
-  <g transform="translate(245 164)" fill="none" stroke="#61DAFB" stroke-width="5" filter="url(#glow)">
-    <ellipse rx="142" ry="55"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite"/></ellipse>
-    <ellipse rx="142" ry="55" transform="rotate(60)"><animateTransform attributeName="transform" type="rotate" from="60 0 0" to="420 0 0" dur="18s" repeatCount="indefinite"/></ellipse>
-    <ellipse rx="142" ry="55" transform="rotate(120)"><animateTransform attributeName="transform" type="rotate" from="120 0 0" to="480 0 0" dur="18s" repeatCount="indefinite"/></ellipse>
-    <circle r="18" fill="#61DAFB" stroke="none" class="pulse"/>
-  </g>
-  <text x="455" y="78" class="c" font-size="14" font-weight="700">PRIMARY FOCUS</text>
-  <text x="455" y="121" class="w" font-size="34" font-weight="800">React turns ideas</text>
-  <text x="455" y="160" class="w" font-size="34" font-weight="800">into products.</text>
-  <text x="455" y="193" class="m" font-size="15">Interfaces claras · datos reales · web y móvil.</text>
-  <path d="M455 210H1125" stroke="#FFF" stroke-opacity=".1"/>
-  <g font-size="14">
-    <rect x="455" y="232" width="144" height="44" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".12"/>
-    <text x="527" y="259" text-anchor="middle" class="w">React</text>
-    <rect x="615" y="232" width="164" height="44" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".12"/>
-    <text x="697" y="259" text-anchor="middle" class="w">TypeScript</text>
-    <rect x="795" y="232" width="150" height="44" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".12"/>
-    <text x="870" y="259" text-anchor="middle" class="w">React Native</text>
-    <rect x="961" y="232" width="164" height="44" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".12"/>
-    <text x="1043" y="259" text-anchor="middle" class="w">Expo · Vite</text>
-  </g>
-  <circle cx="1128" cy="302" r="4" fill="#28C840"><animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/></circle>
-  <text x="1115" y="306" text-anchor="end" class="m" font-size="11">RENDERING / HEALTHY</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">React como centro del trabajo de Bryan</title><desc id="desc">Una animación conecta React con producto, móvil, datos y despliegue.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0A0A0F"/><stop offset="1" stop-color="#10131B"/></linearGradient><linearGradient id="accent"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#38BDF8"/></linearGradient><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.w{fill:#FFF}.m{fill:#A7ADBB}.orbit{animation:spin 12s linear infinite;transform-origin:190px 175px}.dash{animation:dash 2.4s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes dash{to{stroke-dashoffset:-38}}@media(prefers-reduced-motion:reduce){.orbit,.dash{animation:none!important}}</style></defs>
+  <rect width="1200" height="350" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="348" rx="23" fill="none" stroke="#FFF" stroke-opacity=".12"/>
+  <g><circle cx="190" cy="175" r="116" fill="#38BDF8" fill-opacity=".035"/><g class="orbit" fill="none" stroke="#61DAFB" stroke-width="3"><ellipse cx="190" cy="175" rx="92" ry="35"/><ellipse cx="190" cy="175" rx="92" ry="35" transform="rotate(60 190 175)"/><ellipse cx="190" cy="175" rx="92" ry="35" transform="rotate(120 190 175)"/></g><circle cx="190" cy="175" r="14" fill="#61DAFB" filter="url(#glow)"><animate attributeName="r" values="12;16;12" dur="2.8s" repeatCount="indefinite"/></circle></g>
+  <text x="350" y="92" class="m" font-size="12" letter-spacing="1.8">PRIMARY FRONTEND SYSTEM</text><text x="350" y="145" class="w" font-size="34" font-weight="800">React turns ideas into products.</text><text x="350" y="183" class="m" font-size="15">Reusable UI · real data · thoughtful interaction · verified delivery</text>
+  <path d="M350 224H1120" stroke="#FFF" stroke-opacity=".1"/><path d="M390 266H1080" fill="none" stroke="#38BDF8" stroke-opacity=".42" stroke-width="2" stroke-dasharray="7 12" class="dash"/>
+  <g font-size="11" text-anchor="middle"><g transform="translate(390 266)"><circle r="19" fill="#13131A" stroke="#38BDF8"/><circle r="5" fill="#38BDF8"/><text y="42" class="w">IDEA</text></g><g transform="translate(562 266)"><circle r="19" fill="#13131A" stroke="#FFF" stroke-opacity=".25"/><circle r="5" fill="#FFF"/><text y="42" class="w">COMPONENTS</text></g><g transform="translate(735 266)"><circle r="19" fill="#13131A" stroke="#FFF" stroke-opacity=".25"/><circle r="5" fill="#8B5CF6"/><text y="42" class="w">DATA</text></g><g transform="translate(907 266)"><circle r="19" fill="#13131A" stroke="#FFF" stroke-opacity=".25"/><circle r="5" fill="#28C840"/><text y="42" class="w">VERIFY</text></g><g transform="translate(1080 266)"><circle r="19" fill="url(#accent)"/><circle r="5" fill="#FFF"/><text y="42" class="w">SHIP</text></g></g>
+  <circle r="4" fill="#FFF" filter="url(#glow)"><animateMotion path="M390 266H1080" dur="3.2s" repeatCount="indefinite"/></circle>
 </svg>
