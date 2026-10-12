@@ -19,5 +19,19 @@
     "generated_at": "2026-10-12T13:00:00+00:00",
     "concept": "northstar",
     "path": "sites/2026-10-12T13-00Z-northstar/"
+  },
+  {
+    "edition": 4,
+    "slot": 99546,
+    "generated_at": "2026-10-12T18:00:00+00:00",
+    "concept": "form-studio",
+    "path": "sites/2026-10-12T18-00Z-form-studio/"
+  },
+  {
+    "edition": 5,
+    "slot": 99547,
+    "generated_at": "2026-10-12T23:00:00+00:00",
+    "concept": "common-table",
+    "path": "sites/2026-10-12T23-00Z-common-table/"
   }
 ]
