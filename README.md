@@ -5,7 +5,7 @@
   <br><br>
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;duration=2600&amp;pause=850&amp;color=FFFFFF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=React+%E2%80%A2+TypeScript+%E2%80%A2+Product+Engineering;Kali+Linux+%E2%80%A2+Cybersecurity+%E2%80%A2+Automation;Web+%E2%80%A2+Mobile+%E2%80%A2+AI-assisted+workflows;I+learn%2C+build+and+ship." alt="Áreas profesionales de Bryan">
   <br>
-  <img src="https://komarev.com/ghpvc/?username=bryan202675&amp;style=flat-square&amp;color=111827&amp;label=PROFILE+VIEWS" alt="Visitas al perfil">
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-111827?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Perfil activo">
 </div>
 
 ---
