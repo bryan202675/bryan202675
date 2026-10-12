@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="151" viewBox="0 0 800 151" role="img" aria-labelledby="title desc">
+<title id="title">Actividad de ingeniería, ilustración de respaldo</title><desc id="desc">Ilustración estática sin datos de contribución; el workflow genera el gráfico real al ejecutarse.</desc>
+<defs><linearGradient id="ice" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#DDF8FF"/><stop offset="1" stop-color="#9EE7FF"/></linearGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace}
+.title{fill:#F8FDFF;font-size:17px;font-weight:700;letter-spacing:1.5px}
+.label{fill:#F8FDFF;font-size:15px;font-weight:700}
+.muted{fill:#AEBBC7;font-size:12px}
+.ice{fill:#BDEFFF}
+.pulse{animation:pulse 4.6s ease-in-out infinite}
+.trace{animation:trace 9s linear infinite}
+.reveal{animation:reveal 9s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+@keyframes trace{to{stroke-dashoffset:-72}}
+@keyframes reveal{0%,5%{opacity:.32}16%,86%{opacity:1}100%{opacity:.32}}
+@media(prefers-reduced-motion:reduce){.pulse,.trace,.reveal{animation:none!important;opacity:1!important}.traveler{display:none}}
+</style></defs>
+<rect width="800" height="151" rx="20" fill="#0A0A0F"/><rect x="1" y="1" width="798" height="149" rx="19" fill="none" stroke="#DDF8FF" stroke-opacity=".18"/>
+<text x="24" y="36" class="title">ENGINEERING ACTIVITY</text><text x="24" y="63" class="muted">CONTRIBUTION GRAPH / STATIC FALLBACK</text>
+<path d="M25 97H775" stroke="#BDEFFF" stroke-opacity=".2" stroke-width="2"/>
+<circle cx="58" cy="97" r="6" fill="#BDEFFF"/>
+<path d="M58 97L119 82L178 100L244 73L304 92L366 69L429 90L491 75L557 94L620 78L691 90L750 68" fill="none" stroke="url(#ice)" stroke-opacity=".66" stroke-width="2"/>
+<text x="24" y="134" class="muted">Illustrative signal only · no contribution count implied</text>
+</svg>

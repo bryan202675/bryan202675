@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="153" viewBox="0 0 400 153" role="img" aria-labelledby="title desc">
+<title id="title">Actividad ilustrativa móvil</title><desc id="desc">Gráfico decorativo sin datos de contribución.</desc>
+<defs><linearGradient id="ice" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#DDF8FF"/><stop offset="1" stop-color="#9EE7FF"/></linearGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace}
+.title{fill:#F8FDFF;font-size:17px;font-weight:700;letter-spacing:1.5px}
+.label{fill:#F8FDFF;font-size:15px;font-weight:700}
+.muted{fill:#AEBBC7;font-size:12px}
+.ice{fill:#BDEFFF}
+.pulse{animation:pulse 4.6s ease-in-out infinite}
+.trace{animation:trace 9s linear infinite}
+.reveal{animation:reveal 9s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+@keyframes trace{to{stroke-dashoffset:-72}}
+@keyframes reveal{0%,5%{opacity:.32}16%,86%{opacity:1}100%{opacity:.32}}
+@media(prefers-reduced-motion:reduce){.pulse,.trace,.reveal{animation:none!important;opacity:1!important}.traveler{display:none}}
+</style></defs>
+<rect width="400" height="153" rx="20" fill="#0A0A0F"/><rect x="1" y="1" width="398" height="151" rx="19" fill="none" stroke="#DDF8FF" stroke-opacity=".18"/>
+<text x="19" y="33" fill="#F8FDFF" font-size="17" font-weight="700">ENGINEERING ACTIVITY</text>
+<text x="19" y="60" class="muted">ILLUSTRATION / NO REAL DATA</text><path d="M20 90H380" stroke="#BDEFFF" stroke-opacity=".2"/>
+<path d="M20 90L66 77L114 93L163 72L212 88L260 69L310 86L380 75" fill="none" stroke="url(#ice)" stroke-width="2"/>
+<text x="19" y="130" class="muted">See verified activity on GitHub</text>
+</svg>

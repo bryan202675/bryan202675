@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="542" viewBox="0 0 400 542" role="img" aria-labelledby="title desc">
+<title id="title">Flujo de desarrollo móvil</title><desc id="desc">Seis pasos de idea a monitoreo en una columna.</desc>
+<defs><linearGradient id="ice" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#DDF8FF"/><stop offset="1" stop-color="#9EE7FF"/></linearGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace}
+.title{fill:#F8FDFF;font-size:17px;font-weight:700;letter-spacing:1.5px}
+.label{fill:#F8FDFF;font-size:15px;font-weight:700}
+.muted{fill:#AEBBC7;font-size:12px}
+.ice{fill:#BDEFFF}
+.pulse{animation:pulse 4.6s ease-in-out infinite}
+.trace{animation:trace 9s linear infinite}
+.reveal{animation:reveal 9s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+@keyframes trace{to{stroke-dashoffset:-72}}
+@keyframes reveal{0%,5%{opacity:.32}16%,86%{opacity:1}100%{opacity:.32}}
+@media(prefers-reduced-motion:reduce){.pulse,.trace,.reveal{animation:none!important;opacity:1!important}.traveler{display:none}}
+</style></defs>
+<rect width="400" height="542" rx="20" fill="#0A0A0F"/><rect x="1" y="1" width="398" height="540" rx="19" fill="none" stroke="#DDF8FF" stroke-opacity=".18"/>
+<text x="19" y="32" class="muted">FROM IDEA TO PRODUCTION</text>
+<path d="M50 89V479" fill="none" stroke="#BDEFFF" stroke-opacity=".45" stroke-width="2" stroke-dasharray="5 8" class="trace"/>
+<circle r="4" fill="#F8FDFF" class="traveler" filter="url(#glow)"><animateMotion path="M50 89V479" dur="16s" repeatCount="indefinite"/></circle><g transform="translate(26 56)"><rect width="348" height="65" rx="12" fill="#13151D" stroke="#E8FAFF" stroke-opacity=".18"/><circle cx="24" cy="32" r="5" fill="#BDEFFF" class="pulse"/><text x="43" y="37" class="muted">01</text><text x="95" y="38" class="label">IDEA</text></g><g transform="translate(26 134)"><rect width="348" height="65" rx="12" fill="#13151D" stroke="#E8FAFF" stroke-opacity=".18"/><circle cx="24" cy="32" r="5" fill="#BDEFFF" class="pulse"/><text x="43" y="37" class="muted">02</text><text x="95" y="38" class="label">DESIGN</text></g><g transform="translate(26 212)"><rect width="348" height="65" rx="12" fill="#13151D" stroke="#E8FAFF" stroke-opacity=".18"/><circle cx="24" cy="32" r="5" fill="#BDEFFF" class="pulse"/><text x="43" y="37" class="muted">03</text><text x="95" y="38" class="label">DEVELOPMENT</text></g><g transform="translate(26 290)"><rect width="348" height="65" rx="12" fill="#13151D" stroke="#E8FAFF" stroke-opacity=".18"/><circle cx="24" cy="32" r="5" fill="#BDEFFF" class="pulse"/><text x="43" y="37" class="muted">04</text><text x="95" y="38" class="label">TESTING</text></g><g transform="translate(26 368)"><rect width="348" height="65" rx="12" fill="#13151D" stroke="#E8FAFF" stroke-opacity=".18"/><circle cx="24" cy="32" r="5" fill="#BDEFFF" class="pulse"/><text x="43" y="37" class="muted">05</text><text x="95" y="38" class="label">DEPLOYMENT</text></g><g transform="translate(26 446)"><rect width="348" height="65" rx="12" fill="#13151D" stroke="#E8FAFF" stroke-opacity=".18"/><circle cx="24" cy="32" r="5" fill="#BDEFFF" class="pulse"/><text x="43" y="37" class="muted">06</text><text x="95" y="38" class="label">MONITORING</text></g>
+</svg>

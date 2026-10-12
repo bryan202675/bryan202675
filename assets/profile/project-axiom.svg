@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280" role="img" aria-labelledby="title desc">
+<title id="title">Axiom-OS, experimento de interfaz</title><desc id="desc">Arte conceptual del experimento visual Axiom-OS; no es una captura real.</desc>
+<defs><linearGradient id="ice" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#DDF8FF"/><stop offset="1" stop-color="#9EE7FF"/></linearGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace}
+.title{fill:#F8FDFF;font-size:17px;font-weight:700;letter-spacing:1.5px}
+.label{fill:#F8FDFF;font-size:15px;font-weight:700}
+.muted{fill:#AEBBC7;font-size:12px}
+.ice{fill:#BDEFFF}
+.pulse{animation:pulse 4.6s ease-in-out infinite}
+.trace{animation:trace 9s linear infinite}
+.reveal{animation:reveal 9s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+@keyframes trace{to{stroke-dashoffset:-72}}
+@keyframes reveal{0%,5%{opacity:.32}16%,86%{opacity:1}100%{opacity:.32}}
+@media(prefers-reduced-motion:reduce){.pulse,.trace,.reveal{animation:none!important;opacity:1!important}.traveler{display:none}}
+</style></defs>
+<rect width="560" height="280" rx="20" fill="#0A0A0F"/><rect x="1" y="1" width="558" height="278" rx="19" fill="none" stroke="#DDF8FF" stroke-opacity=".18"/>
+<text x="31" y="42" class="title">AXIOM-OS</text><text x="529" y="42" text-anchor="end" class="muted">CONCEPT ART</text>
+<path d="M30 60H530" stroke="#E8FAFF" stroke-opacity=".15"/>
+<circle cx="280" cy="141" r="57" fill="#BDEFFF" fill-opacity=".025" stroke="#DDF8FF" stroke-opacity=".35"/>
+<circle cx="280" cy="141" r="28" fill="none" stroke="url(#ice)" stroke-opacity=".75" stroke-width="2"/>
+<circle cx="280" cy="141" r="7" fill="#F8FDFF" filter="url(#glow)" class="pulse"/>
+<path d="M45 140H192M368 140H515M280 79V70M280 211V203" stroke="#BDEFFF" stroke-opacity=".25" stroke-dasharray="5 9" class="trace"/>
+<rect x="48" y="111" width="104" height="58" rx="10" fill="#13151D" stroke="#E8FAFF" stroke-opacity=".18"/><path d="M65 130H130M65 142H115M65 154H135" stroke="#E8FAFF" stroke-opacity=".32"/>
+<rect x="408" y="111" width="104" height="58" rx="10" fill="#13151D" stroke="#E8FAFF" stroke-opacity=".18"/><circle cx="438" cy="140" r="9" fill="none" stroke="#BDEFFF"/><path d="M455 140H492" stroke="#E8FAFF" stroke-opacity=".32"/>
+<text x="31" y="260" class="muted">INTERFACE EXPERIMENT / HTML · CSS · JAVASCRIPT</text>
+</svg>
