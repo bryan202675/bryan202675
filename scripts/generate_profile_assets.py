@@ -123,8 +123,8 @@ def particles() -> str:
 def banner() -> str:
     particle_markup = particles()
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-  <title id="title">Bryan — React, Kali Linux, ciberseguridad e inteligencia artificial</title>
-  <desc id="desc">Ventana macOS animada donde cientos de partículas forman y dispersan el logo de Kali Linux en un bucle.</desc>
+  <title id="title">Bryan — React, Kali Linux, cybersecurity, and artificial intelligence</title>
+  <desc id="desc">An animated macOS-style window where hundreds of particles form and disperse the Kali Linux logo in a loop.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A0A0F"/><stop offset=".55" stop-color="#0D1018"/><stop offset="1" stop-color="#07080D"/></linearGradient>
     <radialGradient id="aura"><stop stop-color="#F4FDFF" stop-opacity=".2"/><stop offset=".48" stop-color="#AEEBFF" stop-opacity=".07"/><stop offset="1" stop-opacity="0"/></radialGradient>
@@ -170,7 +170,7 @@ def banner() -> str:
 
 def about() -> str:
     return '''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Perfil profesional de Bryan</title><desc id="desc">Dos ventanas macOS animadas resumen su forma de construir producto y pensar en seguridad.</desc>
+  <title id="title">Bryan's professional profile</title><desc id="desc">Two animated macOS-style windows summarize his approach to building products and thinking about security.</desc>
   <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0A0A0F"/><stop offset="1" stop-color="#11131B"/></linearGradient><linearGradient id="line"><stop stop-color="#FFFFFF"/><stop offset=".5" stop-color="#E8FAFF"/><stop offset="1" stop-color="#9EE7FF"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.w{fill:#FFF}.m{fill:#AEB9C5}.c{fill:#DDF8FF}.reveal{animation:show 8s ease-in-out infinite}.flow{animation:flow 3s linear infinite}@keyframes show{0%,12%{opacity:.52}24%,82%{opacity:1}100%{opacity:.52}}@keyframes flow{to{stroke-dashoffset:-40}}@media(prefers-reduced-motion:reduce){.reveal,.flow{animation:none!important;opacity:1}}</style></defs>
   <rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#FFF" stroke-opacity=".12"/>
   <g transform="translate(34 30)"><rect width="704" height="300" rx="18" fill="#13131A" fill-opacity=".88" stroke="#FFF" stroke-opacity=".12"/><path d="M0 48H704" stroke="#FFF" stroke-opacity=".1"/><circle cx="25" cy="24" r="6" fill="#FF5F57"/><circle cx="47" cy="24" r="6" fill="#FEBC2E"/><circle cx="69" cy="24" r="6" fill="#28C840"/><text x="352" y="29" text-anchor="middle" class="m" font-size="12">mission.md — edited</text>
@@ -186,7 +186,7 @@ def about() -> str:
 
 def react_focus() -> str:
     return '''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
-  <title id="title">React como centro del trabajo de Bryan</title><desc id="desc">Una animación conecta React con producto, móvil, datos y despliegue.</desc>
+  <title id="title">React at the center of Bryan's work</title><desc id="desc">An animation connects React with product development, mobile, data, and deployment.</desc>
   <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0A0A0F"/><stop offset="1" stop-color="#10131B"/></linearGradient><linearGradient id="accent"><stop stop-color="#FFFFFF"/><stop offset=".5" stop-color="#E8FAFF"/><stop offset="1" stop-color="#9EE7FF"/></linearGradient><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.w{fill:#FFF}.m{fill:#AEB9C5}.orbit{animation:spin 12s linear infinite;transform-origin:190px 175px}.dash{animation:dash 2.4s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes dash{to{stroke-dashoffset:-38}}@media(prefers-reduced-motion:reduce){.orbit,.dash{animation:none!important}}</style></defs>
   <rect width="1200" height="350" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="348" rx="23" fill="none" stroke="#FFF" stroke-opacity=".12"/>
   <g><circle cx="190" cy="175" r="116" fill="#DDF8FF" fill-opacity=".03"/><g class="orbit" fill="none" stroke="#DDF8FF" stroke-width="3" filter="url(#glow)"><ellipse cx="190" cy="175" rx="92" ry="35"/><ellipse cx="190" cy="175" rx="92" ry="35" transform="rotate(60 190 175)"/><ellipse cx="190" cy="175" rx="92" ry="35" transform="rotate(120 190 175)"/></g><circle cx="190" cy="175" r="14" fill="#F4FDFF" filter="url(#glow)"><animate attributeName="r" values="12;16;12" dur="2.8s" repeatCount="indefinite"/></circle></g>
@@ -211,7 +211,7 @@ def ai_toolchain() -> str:
         delay = i * .45
         parts.append(f'''<g transform="translate({x} 104)"><g class="card" style="animation-delay:{delay}s"><rect width="208" height="164" rx="18" fill="#13131A" fill-opacity=".82" stroke="#E8FAFF" stroke-opacity=".12"><animate attributeName="stroke-opacity" values=".12;.3;.12" dur="{4.6 + i * .25:.2f}s" repeatCount="indefinite"/></rect><rect x="16" y="16" width="46" height="46" rx="13" fill="#E8FAFF" fill-opacity=".045" stroke="#DDF8FF" stroke-opacity=".36"/><use href="#logo-{symbol}" x="25" y="25" width="28" height="28" color="#F4FDFF" filter="url(#glow)"><animate attributeName="opacity" values=".72;1;.72" dur="{2.8 + i * .22:.2f}s" repeatCount="indefinite"/></use><text x="16" y="88" class="w" font-size="15" font-weight="800">{name}</text><text x="16" y="111" class="m" font-size="10">{maker}</text><path d="M16 124H192" stroke="#FFF" stroke-opacity=".08"/><text x="16" y="148" class="ice" font-size="10">{purpose}</text></g></g>''')
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Ecosistema de inteligencia artificial</title><desc id="desc">Claude, Codex, Google Antigravity, Gemini y GitHub Copilot dentro de un flujo humano y verificable.</desc>
+  <title id="title">Artificial intelligence toolkit</title><desc id="desc">Claude, Codex, Google Antigravity, Gemini, and GitHub Copilot in a human-directed, verifiable workflow.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0A0A0F"/><stop offset="1" stop-color="#10131B"/></linearGradient><linearGradient id="accent"><stop stop-color="#FFFFFF"/><stop offset=".5" stop-color="#E8FAFF"/><stop offset="1" stop-color="#9EE7FF"/></linearGradient>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -248,7 +248,7 @@ def ai_primary_marks() -> str:
             '</g>'
         )
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="128" viewBox="0 0 1200 128" role="img" aria-labelledby="title desc">
-  <title id="title">Claude, Codex y Antigravity IDE</title><desc id="desc">Logos blancos de las tres herramientas de IA principales sobre paneles oscuros.</desc>
+  <title id="title">Claude, Codex, and Antigravity IDE</title><desc id="desc">White logos for the three main AI tools on dark panels.</desc>
   <defs>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <symbol id="mark-claude" viewBox="0 0 24 24"><path fill="currentColor" d="{CLAUDE_PATH}"/></symbol>

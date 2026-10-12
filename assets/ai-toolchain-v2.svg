@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Ecosistema de inteligencia artificial</title><desc id="desc">Claude, Codex, Google Antigravity, Gemini y GitHub Copilot dentro de un flujo humano y verificable.</desc>
+  <title id="title">Artificial intelligence toolkit</title><desc id="desc">Claude, Codex, Google Antigravity, Gemini, and GitHub Copilot in a human-directed, verifiable workflow.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0A0A0F"/><stop offset="1" stop-color="#10131B"/></linearGradient><linearGradient id="accent"><stop stop-color="#FFFFFF"/><stop offset=".5" stop-color="#E8FAFF"/><stop offset="1" stop-color="#9EE7FF"/></linearGradient>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>

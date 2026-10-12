@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-  <title id="title">Bryan — React, Kali Linux, ciberseguridad e inteligencia artificial</title>
-  <desc id="desc">Ventana macOS animada donde cientos de partículas forman y dispersan el logo de Kali Linux en un bucle.</desc>
+  <title id="title">Bryan — React, Kali Linux, cybersecurity, and artificial intelligence</title>
+  <desc id="desc">An animated macOS-style window where hundreds of particles form and disperse the Kali Linux logo in a loop.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A0A0F"/><stop offset=".55" stop-color="#0D1018"/><stop offset="1" stop-color="#07080D"/></linearGradient>
     <radialGradient id="aura"><stop stop-color="#F4FDFF" stop-opacity=".2"/><stop offset=".48" stop-color="#AEEBFF" stop-opacity=".07"/><stop offset="1" stop-opacity="0"/></radialGradient>
