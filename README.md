@@ -14,141 +14,132 @@
 
 ## <code>$ whoami</code>
 
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/profile/intro-terminal-mobile.svg"><img src="assets/profile/intro-terminal.svg" width="100%" alt="Presentación animada: Bryan construye productos con React y criterio de seguridad"></picture></p>
-
 <p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/matchday-still.jpg">
-    <img src="assets/profile/matchday-forward-loop.gif" width="720" alt="Escena de un partido de fútbol en un estadio">
-  </picture>
+  <img src="assets/about-terminal-v2.svg" width="100%" alt="Terminal con el perfil profesional de Bryan">
 </p>
 
-Construyo productos digitales donde la interfaz, los datos y la experiencia trabajan como un solo sistema. **React es mi centro de gravedad**: convierto problemas complejos en experiencias claras, rápidas y útiles para web y móvil.
+<p align="center">
+  <img src="assets/profile/matchday-forward-loop.gif" width="720" alt="Escena de un partido de fútbol en un estadio">
+</p>
 
-También desarrollo una mentalidad de seguridad mediante práctica con **Kali Linux**, laboratorios controlados y análisis técnico. Para mí, la ciberseguridad forma parte del diseño y la construcción responsable de software.
+Construyo productos digitales donde la interfaz, los datos y la experiencia trabajan como un solo sistema. **React es mi centro de gravedad**: me interesa convertir ideas complejas en experiencias claras, rápidas y útiles, tanto en web como en móvil.
+
+También desarrollo una mentalidad de seguridad mediante experiencia práctica con **Kali Linux**, laboratorios controlados, análisis técnico y aprendizaje constante. No veo la ciberseguridad como una capa final: la considero parte de cómo se diseña y construye software responsable.
 
 > Mi objetivo no es acumular tecnologías. Es entender el problema, elegir buenas herramientas y entregar algo que realmente funcione.
 
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/profile/engineering-signal-mobile.svg"><img src="assets/profile/engineering-signal.svg" width="100%" alt="Enfoques: producto, frontend, seguridad y automatización"></picture></p>
+---
+
+## <code>$ ./react --focus=product</code>
+
+<p align="center">
+  <img src="assets/react-focus-v2.svg" width="100%" alt="React como enfoque principal de Bryan">
+</p>
+
+<div align="center">
+  <strong>Frontend y móvil</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,vite,expo&amp;theme=dark" alt="React, Next.js, TypeScript, JavaScript, HTML, CSS, Vite y Expo">
+  <br><br>
+  <strong>Lenguajes y automatización</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=python,bash,cs,c,cpp,java,php,sass&amp;theme=dark" alt="Python, Bash, C#, C, C++, Java, PHP y Sass">
+  <br><br>
+  <strong>Servicios y herramientas</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=nodejs,dotnet,firebase,supabase,postgres,git,github,vercel,linux,vscode&amp;theme=dark" alt="Node.js, .NET, Firebase, Supabase, PostgreSQL, Git, GitHub, Vercel, Linux y Visual Studio Code">
+</div>
+
+<p align="center"><sub>C · C++ · Java · PHP · Sass: tecnologías en exploración. HTML y CSS: estructura y estilo web. SQL: consultas y modelado de datos.</sub></p>
+
+### Lo que aporto
+
+- **React y TypeScript:** componentes mantenibles, interfaces coherentes y flujos de datos reales.
+- **Web y móvil:** experiencias construidas con Vite, React Native y Expo.
+- **Backend aplicado:** Supabase, PostgreSQL, autenticación, datos en tiempo real y despliegues.
+- **Automatización:** Bash, Python e integraciones para reducir trabajo repetitivo.
+- **Seguridad:** práctica con Kali Linux y una forma de pensar orientada a riesgos, diagnóstico y mejora continua.
+- **IA aplicada:** orquestación de Claude, Codex, Antigravity, Gemini y Copilot según el problema, siempre con revisión humana y validación técnica.
 
 ---
 
 ## <code>$ ls ~/projects --featured</code>
 
-Dos experimentos públicos de interfaz. Son **conceptos visuales**, no productos operativos ni sistemas de producción.
+| Proyecto | Qué estoy construyendo | Stack / enfoque |
+|---|---|---|
+| **Nexxus** | Ecosistema full-stack para convertir procesos complejos en experiencias web y móviles más claras. | React · React Native · Expo · TypeScript · Supabase · PostgreSQL · Vercel |
+| **SparkApp** | Laboratorio privado de producto donde exploro interfaces, flujos y nuevas ideas. | JavaScript · UX · prototipado |
+| [**Axiom-OS**](https://github.com/bryan202675/Axiom-OS) | Pruebas visuales y experimentación con frameworks y sistemas de interfaz. | CSS · diseño frontend |
+| [**Synapse**](https://github.com/bryan202675/Synapse) | Exploración web enfocada en estructura, interacción y aprendizaje práctico. | HTML · frontend |
+| [**PicoClaw Discord**](https://github.com/bryan202675/picoclaw-discord) | Experimentos de automatización e integración para canales de mensajería. | Shell · automatización |
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/bryan202675/Axiom-OS"><img src="assets/profile/project-axiom.svg" width="100%" alt="Axiom-OS: experimento visual de interfaz tipo sistema operativo"></a><br>
-      <strong><a href="https://github.com/bryan202675/Axiom-OS">Axiom-OS ↗</a></strong><br>
-      Concepto de interfaz con lenguaje visual de sistema operativo. Explora composición, jerarquía e interacción en una landing page.<br>
-      <sub>HTML · CSS · JavaScript · experimento visual · repositorio público</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/bryan202675/Synapse"><img src="assets/profile/project-synapse.svg" width="100%" alt="Synapse: experimento visual de landing page para una plataforma conceptual"></a><br>
-      <strong><a href="https://github.com/bryan202675/Synapse">Synapse ↗</a></strong><br>
-      Landing page conceptual enfocada en identidad, estructura y comunicación visual de un producto digital.<br>
-      <sub>HTML · CSS · experimento visual · repositorio público</sub>
-    </td>
-  </tr>
-</table>
-
-En trabajo privado, **Nexxus** es mi proyecto full-stack de producto web y móvil con React, React Native, Expo, TypeScript, Supabase y PostgreSQL. **SparkApp** es un laboratorio de interfaces y prototipos; también exploro automatización para canales de mensajería con **PicoClaw Discord**. No enlazo repositorios privados o no verificados.
+Los repositorios son el resultado visible; detrás de cada uno hay decisiones, pruebas, errores corregidos y una obsesión saludable por mejorar la siguiente versión.
 
 ---
 
-## <code>$ stack --focus=react</code>
+## <code>$ ai-toolchain --mode=agentic</code>
 
-<p align="center"><img src="assets/react-focus-v2.svg" width="100%" alt="React como eje principal del trabajo de producto"></p>
+<p align="center">
+  <img src="assets/ai-toolchain-v2.svg" width="100%" alt="Flujo de trabajo con Claude, Codex, Antigravity, Gemini y GitHub Copilot">
+</p>
 
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/profile/tech-network-mobile.svg"><img src="assets/profile/tech-network.svg" width="100%" alt="Mapa de tecnologías agrupadas en frontend, móvil, datos, automatización, seguridad y herramientas"></picture></p>
+<p align="center">
+  <img src="assets/ai-primary-marks.svg" width="100%" alt="Logos blancos de Claude, OpenAI Codex y Google Antigravity IDE">
+</p>
 
-**Uso habitual:** React, TypeScript, JavaScript, HTML, CSS, Vite, React Native, Expo, Python, Bash, Supabase, PostgreSQL, Git y Linux. **En exploración:** Next.js, Firebase, C, C++, C#, Java, PHP y Sass; distingo aprendizaje de experiencia aplicada.
+No uso la IA como una caja negra ni como sustituto del criterio. La incorporo como un **sistema de trabajo**: doy contexto, delego tareas concretas, reviso cambios, ejecuto pruebas y decido qué llega a producción.
 
-- **Interfaz y producto:** componentes mantenibles, flujos coherentes y atención a los estados reales de uso.
-- **Web y móvil:** construcción con React y Expo, desde el prototipo hasta la integración con datos.
-- **Backend aplicado:** autenticación, consultas, tiempo real y despliegue con Supabase/PostgreSQL.
-- **Automatización y seguridad:** scripts para reducir trabajo repetitivo y práctica ética con Kali Linux.
+- **Claude:** razonamiento, estructura, documentación y análisis de contexto amplio.
+- **OpenAI Codex:** implementación, diagnóstico, revisión de código y verificación dentro del repositorio.
+- **Google Antigravity:** exploración de flujos agentic-first y orquestación de tareas entre editor, terminal y navegador.
+- **Gemini y GitHub Copilot:** investigación multimodal, asistencia contextual y aceleración del ciclo de desarrollo.
 
----
-
-## <code>$ ./build --from-idea-to-production</code>
-
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/profile/delivery-flow-mobile.svg"><img src="assets/profile/delivery-flow.svg" width="100%" alt="Flujo de trabajo: idea, diseño, desarrollo, pruebas, despliegue y monitoreo"></picture></p>
-
-Primero aclaro el problema; después diseño el flujo, implemento, pruebo y reviso lo que realmente se entrega. La velocidad solo cuenta cuando el resultado es comprensible, verificable y mantenible.
-
----
-
-## <code>$ ai-toolchain --human-in-control</code>
-
-<p align="center"><img src="assets/ai-primary-marks.svg" width="100%" alt="Marcas de Claude, OpenAI Codex y Google Antigravity IDE"></p>
-
-Incorporo la IA como herramienta de trabajo, no como sustituto del criterio: doy contexto, delimito tareas, reviso cambios, ejecuto pruebas y decido qué se publica.
-
-- **Claude:** razonamiento, estructura, documentación y análisis de contexto.
-- **OpenAI Codex:** implementación, diagnóstico, revisión de código y verificación en el repositorio.
-- **Google Antigravity:** exploración de flujos de agentes entre editor, terminal y navegador.
-- **Gemini y GitHub Copilot:** asistencia contextual e investigación según la tarea.
-
-> Contexto → delegación → revisión → pruebas → entrega. La responsabilidad final sigue siendo humana.
-
----
-
-## <code>$ architecture --think-in-systems</code>
-
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/profile/architecture-mobile.svg"><img src="assets/profile/architecture.svg" width="100%" alt="Arquitectura conceptual: cliente, API, servicios y base de datos"></picture></p>
-
-Este diagrama expresa cómo pienso las responsabilidades entre capas; **no representa la arquitectura exacta de todos mis proyectos**. Me interesa que la interfaz, las reglas de negocio y los datos tengan contratos claros.
+> La velocidad importa; la trazabilidad, las pruebas y la responsabilidad importan más.
 
 ---
 
 ## <code>$ security --mindset</code>
 
-Mi práctica con **Kali Linux** se desarrolla en entornos controlados y con una perspectiva ética: observar, entender, documentar y fortalecer. No presento esa práctica como una certificación ni como experiencia profesional no demostrada.
+<div align="center">
+  <img src="https://cdn.simpleicons.org/kalilinux/FFFFFF" height="62" alt="Kali Linux">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/linux/FFFFFF" height="58" alt="Linux">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/gnubash/FFFFFF" height="58" alt="Bash">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/git/FFFFFF" height="58" alt="Git">
+</div>
 
-```text
-security_mode  = ethical-and-controlled
-current_focus  = linux · analysis · secure development
-rule_zero      = understand the system before improving it
-```
+Mi experiencia con ciberseguridad se apoya en la práctica con **Kali Linux** y en comprender cómo se comportan los sistemas bajo presión. Trabajo desde entornos controlados y con una perspectiva ética: observar, entender, documentar y fortalecer.
+
+    security_mode: ethical-and-controlled
+    current_focus: linux · analysis · secure development · continuous learning
+    rule_zero: understand the system before attempting to improve it
 
 ---
 
-## <code>$ credentials --provider=anthropic</code>
+## <code>$ credentials --provider anthropic</code>
 
 <table>
   <tr>
-    <td width="88" align="center"><img src="https://cdn.simpleicons.org/claude/D97757" width="52" alt="Claude"></td>
-    <td><strong>Formación y certificaciones de Anthropic</strong><br>He completado certificaciones de Anthropic y aplico ese aprendizaje para trabajar con Claude de forma estructurada: mejor contexto, instrucciones claras, revisión crítica y resultados verificables.</td>
+    <td width="88" align="center">
+      <img src="https://cdn.simpleicons.org/claude/D97757" width="52" alt="Claude">
+    </td>
+    <td>
+      <strong>Formación y certificaciones de Anthropic</strong><br>
+      He completado certificaciones de Anthropic y aplico ese aprendizaje para trabajar con Claude de forma estructurada: mejor contexto, mejores instrucciones, revisión crítica y resultados verificables. Esta formación se presenta por separado de las demás herramientas de IA para mantener claras las credenciales.
+    </td>
   </tr>
 </table>
 
-La formación en Claude aparece separada del resto de herramientas de IA para no confundir uso de herramientas con credenciales.
-
----
-
-## <code>$ github --activity</code>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bryan202675/bryan202675/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bryan202675/bryan202675/output/github-contribution-grid-snake.svg">
-    <img src="assets/profile/activity-fallback.svg" width="100%" alt="Serpiente animada sobre las contribuciones públicas de GitHub">
-  </picture>
-</p>
-
-La serpiente se genera desde mis contribuciones públicas mediante este [workflow](.github/workflows/contribution-snake.yml). La actividad completa está en mi [perfil de GitHub](https://github.com/bryan202675?tab=overview).
+> La IA amplifica el proceso; la responsabilidad sobre las decisiones y la calidad sigue siendo humana.
 
 ---
 
 ## <code>$ connect --github</code>
 
-Si te interesa construir una interfaz útil, conversar sobre React o compartir ideas de seguridad responsable, conversemos en GitHub.
+<div align="center">
+  <a href="https://github.com/bryan202675">
+    <img src="https://img.shields.io/badge/GitHub-bryan202675-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub de Bryan">
+  </a>
+</div>
 
-<p align="center"><a href="https://github.com/bryan202675"><picture><source media="(max-width: 600px)" srcset="assets/profile/connect-github-mobile.svg"><img src="assets/profile/connect-github.svg" width="100%" alt="Abrir el perfil de GitHub de Bryan"></picture></a></p>
+<br>
 
-<p align="center"><a href="https://github.com/bryan202675"><picture><source media="(max-width: 600px)" srcset="assets/profile/footer-pulse-mobile.svg"><img src="assets/profile/footer-pulse.svg" width="100%" alt="Bryan: construir, verificar y mejorar"></picture></a></p>
-
-<p align="center"><sub>Construyendo con curiosidad, criterio y constancia desde El Salvador.</sub></p>
+<div align="center">
+  <sub>Construyendo con curiosidad, criterio y constancia desde El Salvador.</sub>
+</div>
