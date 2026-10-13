@@ -33,5 +33,12 @@
     "generated_at": "2026-10-12T23:00:00+00:00",
     "concept": "common-table",
     "path": "sites/2026-10-12T23-00Z-common-table/"
+  },
+  {
+    "edition": 6,
+    "slot": 99548,
+    "generated_at": "2026-10-13T04:00:00+00:00",
+    "concept": "fieldwork",
+    "path": "sites/2026-10-13T04-00Z-fieldwork/"
   }
 ]
