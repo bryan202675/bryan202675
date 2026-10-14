@@ -19,14 +19,14 @@
 </p>
 
 <p align="center">
-  <img src="assets/profile/matchday-forward-loop.gif" width="720" alt="Soccer match in a stadium">
+  <img src="assets/profile/olise.gif" width="720" alt="Michael Olise loop">
 </p>
 
-I build digital products where the interface, data, and user experience work as one system. **React is at the center of my work**: I enjoy turning complex ideas into clear, fast, useful experiences for the web and mobile devices.
+I am a **full-stack developer with a deep creative passion for the frontend**. While I build end-to-end applications—handling data persistence, authentication, and APIs with Supabase, PostgreSQL, and ASP.NET Core—the frontend is where my creative mindset thrives: designing intuitive interfaces, crafting fluid UI motion, and obsessing over the interactions that make software feel effortless.
 
-I also bring a security mindset shaped by hands-on practice with **Kali Linux**, controlled labs, technical analysis, and continuous learning. I do not see cybersecurity as a final layer; I see it as part of designing and building responsible software.
+I also cultivate a security-first mindset through hands-on practice with **Kali Linux**, network analysis, and controlled labs. For me, responsible software brings everything together: an architecture that scales, visual craft that inspires users, and security built into every commit.
 
-> My goal is not to collect technologies. It is to understand the problem, choose the right tools, and deliver something that actually works.
+> My goal is not to collect technologies. It is to understand the problem, choose the right tools, and build something that genuinely works.
 
 ---
 
@@ -65,11 +65,11 @@ I also bring a security mindset shaped by hands-on practice with **Kali Linux**,
 
 | Project | What I am building | Stack / focus |
 |---|---|---|
-| **Nexxus** | A full-stack ecosystem that turns complex processes into clearer web and mobile experiences. | React · React Native · Expo · TypeScript · Supabase · PostgreSQL · Vercel |
-| **SparkApp** | A private product lab where I explore interfaces, workflows, and new ideas. | JavaScript · UX · prototyping |
-| [**Axiom-OS**](https://github.com/bryan202675/Axiom-OS) | Visual experiments with frameworks and interface systems. | CSS · frontend design |
-| [**Synapse**](https://github.com/bryan202675/Synapse) | Web exploration focused on structure, interaction, and hands-on learning. | HTML · frontend |
-| [**PicoClaw Discord**](https://github.com/bryan202675/picoclaw-discord) | Experiments in automation and messaging-channel integrations. | Shell · automation |
+| [**ReplayLab**](https://github.com/bryan202675/replaylab) | Apple-inspired visual regression testing and QA platform with automated screenshot diffing and worker architecture. | TypeScript · Playwright · Pixelmatch · Vitest · Monorepo |
+| [**MotionLab**](https://github.com/bryan202675/MotionLab) | An expressive collection of accessible React motion components, interactive demos, and micro-interactions. | React · TypeScript · Motion · Design Engineering · A11y |
+| [**Nexxus**](https://github.com/bryan202675/nexxus) | A modular full-stack ecosystem turning complex business workflows into clear web and mobile experiences. | React · React Native · Expo · TypeScript · Supabase · PostgreSQL · Vercel |
+| [**Entrada**](https://github.com/bryan202675/entrada) | ASP.NET Core MVC event management and ticket reservation system with relational persistence. | C# · ASP.NET Core MVC · Entity Framework · PostgreSQL |
+| [**Axiom-OS**](https://github.com/bryan202675/Axiom-OS) | Visual experiments exploring modern design systems, fluid layouts, and frontend architectures. | CSS · UI Design · Modern Layouts |
 
 Repositories show the visible result; behind each one are decisions, tests, fixed bugs, and a healthy drive to make the next version better.
 
