@@ -65,6 +65,7 @@ I also cultivate a security-first mindset through hands-on practice with **Kali 
 
 | Project | What I am building | Stack / focus |
 |---|---|---|
+| [**DATA**](https://github.com/bryan202675/dataaaa) | High-end visual portfolio showcasing curated projects with fluid motion and white-label craft. Live at [dataaaaaa.vercel.app](https://dataaaaaa.vercel.app). | React · TypeScript · Motion · UI/UX · Vercel |
 | [**ReplayLab**](https://github.com/bryan202675/replaylab) | Apple-inspired visual regression testing and QA platform with automated screenshot diffing and worker architecture. | TypeScript · Playwright · Pixelmatch · Vitest · Monorepo |
 | [**MotionLab**](https://github.com/bryan202675/MotionLab) | An expressive collection of accessible React motion components, interactive demos, and micro-interactions. | React · TypeScript · Motion · Design Engineering · A11y |
 | [**Nexxus**](https://github.com/bryan202675/nexxus) | A modular full-stack ecosystem turning complex business workflows into clear web and mobile experiences. | React · React Native · Expo · TypeScript · Supabase · PostgreSQL · Vercel |
