@@ -89,5 +89,12 @@
     "generated_at": "2026-10-14T15:00:00+00:00",
     "concept": "northstar",
     "path": "sites/2026-10-14T15-00Z-northstar/"
+  },
+  {
+    "edition": 14,
+    "slot": 99556,
+    "generated_at": "2026-10-14T20:00:00+00:00",
+    "concept": "form-studio",
+    "path": "sites/2026-10-14T20-00Z-form-studio/"
   }
 ]
