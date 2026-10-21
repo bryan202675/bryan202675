@@ -320,5 +320,12 @@
     "generated_at": "2026-10-21T12:00:00+00:00",
     "concept": "fieldwork",
     "path": "sites/2026-10-21T12-00Z-fieldwork/"
+  },
+  {
+    "edition": 47,
+    "slot": 99589,
+    "generated_at": "2026-10-21T17:00:00+00:00",
+    "concept": "meridian",
+    "path": "sites/2026-10-21T17-00Z-meridian/"
   }
 ]
