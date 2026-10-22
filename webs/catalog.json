@@ -341,5 +341,19 @@
     "generated_at": "2026-10-22T03:00:00+00:00",
     "concept": "form-studio",
     "path": "sites/2026-10-22T03-00Z-form-studio/"
+  },
+  {
+    "edition": 50,
+    "slot": 99592,
+    "generated_at": "2026-10-22T08:00:00+00:00",
+    "concept": "common-table",
+    "path": "sites/2026-10-22T08-00Z-common-table/"
+  },
+  {
+    "edition": 51,
+    "slot": 99593,
+    "generated_at": "2026-10-22T13:00:00+00:00",
+    "concept": "fieldwork",
+    "path": "sites/2026-10-22T13-00Z-fieldwork/"
   }
 ]
