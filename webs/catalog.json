@@ -362,5 +362,12 @@
     "generated_at": "2026-10-22T18:00:00+00:00",
     "concept": "meridian",
     "path": "sites/2026-10-22T18-00Z-meridian/"
+  },
+  {
+    "edition": 53,
+    "slot": 99595,
+    "generated_at": "2026-10-22T23:00:00+00:00",
+    "concept": "northstar",
+    "path": "sites/2026-10-22T23-00Z-northstar/"
   }
 ]
