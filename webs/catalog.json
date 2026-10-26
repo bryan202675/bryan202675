@@ -474,5 +474,19 @@
     "generated_at": "2026-10-26T02:00:00+00:00",
     "concept": "northstar",
     "path": "sites/2026-10-26T02-00Z-northstar/"
+  },
+  {
+    "edition": 69,
+    "slot": 99611,
+    "generated_at": "2026-10-26T07:00:00+00:00",
+    "concept": "form-studio",
+    "path": "sites/2026-10-26T07-00Z-form-studio/"
+  },
+  {
+    "edition": 70,
+    "slot": 99612,
+    "generated_at": "2026-10-26T12:00:00+00:00",
+    "concept": "common-table",
+    "path": "sites/2026-10-26T12-00Z-common-table/"
   }
 ]
