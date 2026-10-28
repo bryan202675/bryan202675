@@ -558,5 +558,12 @@
     "generated_at": "2026-10-28T14:00:00+00:00",
     "concept": "common-table",
     "path": "sites/2026-10-28T14-00Z-common-table/"
+  },
+  {
+    "edition": 81,
+    "slot": 99623,
+    "generated_at": "2026-10-28T19:00:00+00:00",
+    "concept": "fieldwork",
+    "path": "sites/2026-10-28T19-00Z-fieldwork/"
   }
 ]
