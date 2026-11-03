@@ -733,5 +733,12 @@
     "generated_at": "2026-11-02T19:00:00+00:00",
     "concept": "common-table",
     "path": "sites/2026-11-02T19-00Z-common-table/"
+  },
+  {
+    "edition": 106,
+    "slot": 99648,
+    "generated_at": "2026-11-03T00:00:00+00:00",
+    "concept": "fieldwork",
+    "path": "sites/2026-11-03T00-00Z-fieldwork/"
   }
 ]
