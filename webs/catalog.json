@@ -845,5 +845,19 @@
     "generated_at": "2026-11-06T03:00:00+00:00",
     "concept": "fieldwork",
     "path": "sites/2026-11-06T03-00Z-fieldwork/"
+  },
+  {
+    "edition": 122,
+    "slot": 99664,
+    "generated_at": "2026-11-06T08:00:00+00:00",
+    "concept": "meridian",
+    "path": "sites/2026-11-06T08-00Z-meridian/"
+  },
+  {
+    "edition": 123,
+    "slot": 99665,
+    "generated_at": "2026-11-06T13:00:00+00:00",
+    "concept": "northstar",
+    "path": "sites/2026-11-06T13-00Z-northstar/"
   }
 ]
