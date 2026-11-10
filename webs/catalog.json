@@ -978,5 +978,12 @@
     "generated_at": "2026-11-10T02:00:00+00:00",
     "concept": "common-table",
     "path": "sites/2026-11-10T02-00Z-common-table/"
+  },
+  {
+    "edition": 141,
+    "slot": 99683,
+    "generated_at": "2026-11-10T07:00:00+00:00",
+    "concept": "fieldwork",
+    "path": "sites/2026-11-10T07-00Z-fieldwork/"
   }
 ]
