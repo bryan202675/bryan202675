@@ -1111,5 +1111,12 @@
     "generated_at": "2026-11-14T01:00:00+00:00",
     "concept": "form-studio",
     "path": "sites/2026-11-14T01-00Z-form-studio/"
+  },
+  {
+    "edition": 160,
+    "slot": 99702,
+    "generated_at": "2026-11-14T06:00:00+00:00",
+    "concept": "common-table",
+    "path": "sites/2026-11-14T06-00Z-common-table/"
   }
 ]
