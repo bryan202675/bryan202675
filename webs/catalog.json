@@ -1153,5 +1153,19 @@
     "generated_at": "2026-11-15T07:00:00+00:00",
     "concept": "common-table",
     "path": "sites/2026-11-15T07-00Z-common-table/"
+  },
+  {
+    "edition": 166,
+    "slot": 99708,
+    "generated_at": "2026-11-15T12:00:00+00:00",
+    "concept": "fieldwork",
+    "path": "sites/2026-11-15T12-00Z-fieldwork/"
+  },
+  {
+    "edition": 167,
+    "slot": 99709,
+    "generated_at": "2026-11-15T17:00:00+00:00",
+    "concept": "meridian",
+    "path": "sites/2026-11-15T17-00Z-meridian/"
   }
 ]
