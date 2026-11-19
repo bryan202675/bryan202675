@@ -1279,5 +1279,19 @@
     "generated_at": "2026-11-19T01:00:00+00:00",
     "concept": "northstar",
     "path": "sites/2026-11-19T01-00Z-northstar/"
+  },
+  {
+    "edition": 184,
+    "slot": 99726,
+    "generated_at": "2026-11-19T06:00:00+00:00",
+    "concept": "form-studio",
+    "path": "sites/2026-11-19T06-00Z-form-studio/"
+  },
+  {
+    "edition": 185,
+    "slot": 99727,
+    "generated_at": "2026-11-19T11:00:00+00:00",
+    "concept": "common-table",
+    "path": "sites/2026-11-19T11-00Z-common-table/"
   }
 ]
