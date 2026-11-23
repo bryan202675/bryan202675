@@ -1419,5 +1419,26 @@
     "generated_at": "2026-11-23T05:00:00+00:00",
     "concept": "northstar",
     "path": "sites/2026-11-23T05-00Z-northstar/"
+  },
+  {
+    "edition": 204,
+    "slot": 99746,
+    "generated_at": "2026-11-23T10:00:00+00:00",
+    "concept": "form-studio",
+    "path": "sites/2026-11-23T10-00Z-form-studio/"
+  },
+  {
+    "edition": 205,
+    "slot": 99747,
+    "generated_at": "2026-11-23T15:00:00+00:00",
+    "concept": "common-table",
+    "path": "sites/2026-11-23T15-00Z-common-table/"
+  },
+  {
+    "edition": 206,
+    "slot": 99748,
+    "generated_at": "2026-11-23T20:00:00+00:00",
+    "concept": "fieldwork",
+    "path": "sites/2026-11-23T20-00Z-fieldwork/"
   }
 ]
