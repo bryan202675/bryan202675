@@ -1447,5 +1447,26 @@
     "generated_at": "2026-11-24T01:00:00+00:00",
     "concept": "meridian",
     "path": "sites/2026-11-24T01-00Z-meridian/"
+  },
+  {
+    "edition": 208,
+    "slot": 99750,
+    "generated_at": "2026-11-24T06:00:00+00:00",
+    "concept": "northstar",
+    "path": "sites/2026-11-24T06-00Z-northstar/"
+  },
+  {
+    "edition": 209,
+    "slot": 99751,
+    "generated_at": "2026-11-24T11:00:00+00:00",
+    "concept": "form-studio",
+    "path": "sites/2026-11-24T11-00Z-form-studio/"
+  },
+  {
+    "edition": 210,
+    "slot": 99752,
+    "generated_at": "2026-11-24T16:00:00+00:00",
+    "concept": "common-table",
+    "path": "sites/2026-11-24T16-00Z-common-table/"
   }
 ]
